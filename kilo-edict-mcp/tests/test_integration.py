@@ -19,7 +19,7 @@ from edict_mcp.tools.tasks import (
 from edict_mcp.tools.agents import handle_list_agents
 from edict_mcp.tools.events import handle_list_events
 from edict_mcp.prompts.templates import handle_get_prompt
-from edict_mcp.resources.status import handle_read_resource
+from edict_mcp.resources.status import handle_read_resource as handle_resource_read
 
 
 class TestToolIntegration:

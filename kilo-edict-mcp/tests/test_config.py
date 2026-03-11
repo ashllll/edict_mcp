@@ -6,7 +6,7 @@
 
 import os
 import pytest
-from edict_mcp.config import EdictConfig, get_config, reset_config
+from edict_mcp.config import EdictConfig, get_config, set_config, reset_config
 
 
 class TestEdictConfig:

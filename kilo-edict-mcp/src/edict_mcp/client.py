@@ -65,6 +65,7 @@ class EdictClient:
             self._client = None
     
     async def __aenter__(self):
+        await self._get_client()  # 初始化 HTTP 客户端
         return self
     
     async def __aexit__(self, exc_type, exc_val, exc_tb):
